@@ -1,0 +1,23 @@
+.footer{
+    background-color: rgb(77, 76, 78);
+    color: white;
+    gap: 100px;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer ul li{
+ display: flex;
+ justify-content: center;
+ height: 3rem;
+ width: 5rem;
+ align-items: center;
+}
+
+.footer ul li:hover{
+    border-radius: 10px;
+    background-color: rgb(248, 18, 18);
+}

@@ -1,0 +1,21 @@
+.navigation{
+    background-color: aquamarine;
+
+    
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.navigation ul li{
+    width: 5rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation ul li:hover{
+    border-radius: 10px;
+    background-color: rgb(254, 145, 12);
+}
